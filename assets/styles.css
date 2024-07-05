@@ -1,7 +1,7 @@
 /* assets/styles.css */
 .headshot {
-    width: 150px; /* Adjust size as needed */
-    height: 150px;
+    width: 30px; /* Adjust size as needed */
+    height: 30px;
     border-radius: 50%;
     display: block;
     margin: 20px auto; /* Center the image */
