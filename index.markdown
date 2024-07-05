@@ -8,7 +8,7 @@ title: Home
 
 # Welcome to My Portfolio
 
-![Headshot](assets/headshot.jpg){: .headshot }
+![Headshot](assets/headshot.jpg){: style="width: 30px; height: 30px; border-radius: 50%; display: block; margin: 20px auto;" }
 
 ## Contact Info
 - [GitHub](https://github.com/hhekmat)
