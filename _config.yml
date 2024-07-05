@@ -37,6 +37,13 @@ plugins:
   - jekyll-paginate
   - jekyll-archives
 
+# Custom CSS
+sass:
+  style: compressed
+
+include:
+  - assets/styles.css
+
 jekyll-archives:
   enabled:
     - categories

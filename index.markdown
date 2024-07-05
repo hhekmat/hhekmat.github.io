@@ -8,6 +8,8 @@ title: Home
 
 # Welcome to My Portfolio
 
+![Headshot](assets/headshot.jpg){: .headshot }
+
 ## Contact Info
 - [GitHub](https://github.com/hhekmat)
 - [LinkedIn](https://www.linkedin.com/in/hamed-hekmat/)
