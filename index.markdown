@@ -9,8 +9,8 @@ title: Home
 # Welcome to My Portfolio
 
 ## Contact Info
-- [GitHub](https://github.com/your-username)
-- [LinkedIn](https://www.linkedin.com/in/your-username/)
+- [GitHub](https://github.com/hhekmat)
+- [LinkedIn](https://www.linkedin.com/in/hamed-hekmat/)
 - [Resume](path/to/your/resume.pdf)
 
 ## Projects
