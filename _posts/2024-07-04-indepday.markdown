@@ -1,0 +1,9 @@
+---
+layout: post
+title: "My Awesome Project"
+date: 2024-06-26
+tags: [featured, ml]
+---
+
+## Project Description
+This is a detailed description of my awesome project.
