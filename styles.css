@@ -3,24 +3,38 @@ body {
     margin: 0;
     padding: 0;
   }
+  
   header {
     background-color: #f8f9fa;
     padding: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+  
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
   nav a {
     margin: 0 10px;
     text-decoration: none;
     color: #007bff;
   }
+  
   main {
     padding: 20px;
   }
+  
   #tags button {
     margin: 0 5px;
     padding: 10px 20px;
     cursor: pointer;
   }
+  
   .project {
     margin-bottom: 20px;
   }
@@ -29,5 +43,6 @@ body {
     width: 50px; /* Adjust size as needed */
     height: 50px;
     border-radius: 50%;
-    margin-right: 10px;
-}
+    margin-bottom: 10px; /* Adjust margin to your preference */
+  }
+  
