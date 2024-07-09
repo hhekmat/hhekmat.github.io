@@ -25,3 +25,9 @@ body {
     margin-bottom: 20px;
   }
   
+  .headshot {
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
