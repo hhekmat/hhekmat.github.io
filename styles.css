@@ -5,7 +5,7 @@ body {
   }
   
   header {
-    background-color: #f8f9fa;
+    background-color: #6badef;
     padding: 20px;
     text-align: center;
     display: flex;
@@ -22,7 +22,7 @@ body {
   nav a {
     margin: 0 10px;
     text-decoration: none;
-    color: #007bff;
+    color: #1b67b9;
   }
   
   main {
@@ -43,6 +43,6 @@ body {
     width: 90px; /* Adjust size as needed */
     height: 90px;
     border-radius: 50%;
-    margin-bottom: 10px; /* Adjust margin to your preference */
+    margin-bottom: 7px; /* Adjust margin to your preference */
   }
   
