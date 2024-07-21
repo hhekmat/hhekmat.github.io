@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My First Project - Hamed Hekmat</title>
+  <title>Startup Success Predictor</title>
   <link rel="stylesheet" href="../styles.css">
   <link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon">
 </head>
@@ -25,34 +25,61 @@
   <!-- Main content of the project page -->
   <main>
     <article>
-      <h1 id="my-first-project">My First Project</h1>
-      <figure>
+      <h1 id="startup-success">Startup Success Predictor</h1>
+      <!-- 
+        <figure>
         <img src="assets/project1.jpg" alt="Project Image">
         <figcaption aria-hidden="true">Project Image</figcaption>
-      </figure>
+        </figure>
+      -->
 
       <h2 id="description">Description</h2>
-      <p>This is a detailed description of my first project. It involves using machine learning to predict outcomes based on data.</p>
+      <p>
+        Stanford's CS 221: AI Principles and Techniques course has an optional final project component, where 
+        students are provided the opportunity to work directly with a Course Assistant mentor on a project 
+        of their choosing. With a few of my friends who share my interest in tech entrepreneurship, we decided 
+        to apply key concepts from the ML unit to investigate whether it'd be possible to predict the success of
+        a startup based on some of its features. 
+      </p>
+      <p>
+        After finding a dataset on Kaggle (linked below), we had to make some decisions regarding feature 
+        selection, which informed we processed and formatted the raw data to prepare it for analysis. These decisions
+        are detailed in our final report below. Then, we used sk-learn to train a logistic regression model to
+        serve as our baseline, which we compared to a variety of configurations of small neural networks 
+        developed using PyTorch. We experimented with an assortment of combinations for hyperparameters such as 
+        learning rate, hidden layer depth, hidden layer width, and batch size, to examine their effect on overall 
+        performance.
+      </p>
+      <p>
+        After testing over 60 different initial hyperparameter configurations and examining accuracies ranging from
+        20% to over 80%, we observed the best performance with a learning rate of 0.1, batch size of 32, and 2 
+        hidden layers with 5 and 4 nodes respectively, yielding 86.21% accuracy. More detailed discussion of our
+        results can be found in the final report below. Overall, as an optional final project completed in
+        somewhat of a rush and our first time working with PyTorch, this project served as an excellent learning 
+        opportunity regarding the importance of design choices at every step of the machine learning pipeline, be
+        it data engineering all the way to hyperparameter tuning.
+      </p>
       <a href="../assets/files/CS_221_Project_Report.pdf">View final project report here.</a>
 
-      <h2 id="features">Features</h2>
+      <h2 id="features">Skills Involved</h2>
       <ul>
-        <li>Feature 1: Detailed explanation of feature 1.</li>
-        <li>Feature 2: Detailed explanation of feature 2.</li>
-        <li>Feature 3: Detailed explanation of feature 3.</li>
+        <li>Data engineering/preprocessing</li>
+        <li>Machine learning (regression and deep learning)</li>
+        <li>Hyperparameter tuning</li>
       </ul>
 
       <h2 id="technologies-used">Technologies Used</h2>
       <ul>
-        <li>Technology 1</li>
-        <li>Technology 2</li>
-        <li>Technology 3</li>
+        <li>PyTorch</li>
+        <li>sk-learn</li>
       </ul>
 
       <h2 id="links">Links</h2>
       <ul>
-        <li><a href="https://github.com/yourusername/project1">GitHub Repository</a></li>
-        <li><a href="https://yourusername.github.io/project1">Live Demo</a></li>
+        <li><a href="https://github.com/ninaboord/startup-predictor">GitHub Repository</a></li>
+        <li><a href="https://www.kaggle.com/datasets/manishkc06/startup-success-prediction">Kaggle Dataset</a></li>
+        <li><a href="https://www.youtube.com/watch?v=kkI3YXysFrc">Video summarizing results</a></li>
+
       </ul>
     </article>
   </main>
