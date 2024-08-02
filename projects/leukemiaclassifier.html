@@ -28,19 +28,40 @@
       <h1 id="leukemia_classifier">Leukemia Cell Classifier</h1>
 
       <h2 id="description">Description</h2>
-      <p>INSERT DESCRIPTION HERE</p>
+      <p>
+        For my final project for this computational biology course, I decided to compare the performance 
+        of state-of-the-art complex research methods to out-of-the-box ML libraries on an image classification 
+        task. I found a dataset of leukemia cell images from a previous online competition, along with a research 
+        paper explaining how they attained excellent performance on the test set using extensive image preprocessing, 
+        dataset augmentation, and a very intentionally designed neural network. As I was hoping to gain some practice 
+        with PyTorch and sci-kit-learn, I was curious about how large the performance gap would be between the researchers'
+        results and my own.
+      </p>
+      <p>
+        I began by conducting PCA on some benign and malignant cell images to gain more insight about just how similar 
+        the two distinct classes were (along with the level of difficulty of the task). Afterward, I learned about random 
+        forest classification, which I could quickly do using sk-learn. This method yielded results that weren't much worse
+        than the research paper before their implementation of Efficient Channel Attention! Though I didn't need to include it
+        as part of my project in my final report below, out of curiosity I continued to experiment with making my own neural 
+        network for the task using PyTorch. This yielded slight improvement over the random forest classfication, but the 
+        remaining performance gap with the research team's excellent results helped me learn about the importance in 
+        neural network architecture design while reflecting on the steps that'd be involved in improving the performance 
+        of my model.
+      </p>
       <a href="../assets/files/CS_279__Proj.pdf">View final project report here.</a>
 
       <h2 id="features">Skills Involved</h2>
       <ul>
         <li>Machine learning (random forest classification, deep learning)</li>
         <li>Image preprocessing</li>
+        <li>Principle component analysis (PCA)</li>
       </ul>
 
       <h2 id="technologies-used">Technologies Used</h2>
       <ul>
         <li>PyTorch</li>
         <li>sk-learn</li>
+        <li>OpenCV</li>
       </ul>
 
       <h2 id="links">Links</h2>

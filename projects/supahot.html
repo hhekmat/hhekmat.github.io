@@ -27,14 +27,31 @@
     <article>
       <h1 id="supahot">SUPaHOT</h1>
 
-
       <h2 id="description">Description</h2>
-      <p>INSERT DESCRIPTION</p>
+      <p>
+        Hoping to build upon the limitations of Stanford research application LLMonFIHR, my friends Nina 
+        Boord, Michael Brockman, and I set about exploring the use of smaller LLMs for more specialized 
+        tasks involving healthcare data. FIHR is the standardized format for storing healthcare data, but 
+        on its own, a raw FIHR file is not very interpretable. As a result, LLMonFIHR was conceived to allow 
+        patients to interact with their health records through an LLM in a chatbot interface, providing 
+        simple interpretable responses to patient queries. However, the research application used OpenAI 
+        API, raising concerns regarding scalability as well as patient data privacy.
+      </p>
+      <p>
+        We recreated the backend pipeline of the application in Python, separating out the 3 functions for
+        which LLMs are leveraged. In doing so, we were able to experiment with models other than GPT4, 
+        comparing the effect of domain-specific pretraining vs task-specific finetuning on the performance 
+        of smaller models for each of the 3 tasks in the pipeline. This not only taught us a lot about 
+        system design in managing how each step of the backend interacts with the next, but we also learned 
+        about the importance of subtle changes in data design and prompt engineering. Lastly, we gained hands-
+        on experience with state-of-the-art LLMs, including fine-tuning methods such as LORA and how to 
+        effectively use hugging-face's transformers library for text streaming/generation.
+      </p>
       <a href="../assets/files/CS224N_Project_Final_Report__Nina__Michael__Hamed.pdf">View final project report here.</a>
       <h2 id="features">Skills Involved</h2>
       <ul>
-        <li>LLM Pretraining and finetuning</li>
-        <li>Synthetic data design and generation</li>
+        <li>LLM pretraining and finetuning</li>
+        <li>Synthetic data engineering and generation</li>
         <li>Prompt engineering</li>
       </ul>
 

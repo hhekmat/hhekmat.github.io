@@ -33,13 +33,41 @@
       </figure>
       -->
       <h2 id="description">Description</h2>
-      <p>INSERT DESCRIPTION</p>
+      <p>
+        In this market design course, a large part of our final grade was dependent on 
+        the investigation/implementation of a solution to a market design problem of our
+        choosing. My friend Gavin McDonell and I were aware of the current suboptimal process used by
+        Stanford's Mathematics department in determining how to pair grad student mentors
+        with undergrad participants for the Directed Reading Program. As of right now, the
+        DRP committee (4 Math PhD students) pore through applications by hand, a tedious
+        and time-consuming process.
+      </p>
+      <p>
+        Our proposed solution, grounded in extensive literature review, was to formulate
+        weights between any potential mentor-mentee pair in order to solve for the 
+        max weight bipartite matching. By changing the application process to create 
+        applicant/mentor profiles leveraging qualities that are key indicators of
+        high quality mentorship while weighting the importance of these qualities by 
+        applicant personal preference, we were able to demonstrate a significant improvement 
+        in average match quality, which can significantly contribute to program success in 
+        fostering greater involvement with mathematics in academia.
+      </p>
+      <p>
+        I was responsible for designing and implementing the simulation we used to demonstrate 
+        these results. In the process, I not only learned how to use networkx to model bipartite 
+        graphs in Python, but I also had to leverage asynchronous parallelization to allow us to 
+        simulate a large quantity of applicant pools and potential matches in order to increase 
+        our confidence in our results. The final report below explores in more detail the mathematical 
+        and theoretical considerations that went into our design, such as an investigation of the 
+        level of strategy-proofness we might observe with such a system.
+      </p>
       <a href="../assets/files/Econ_136_Term_Paper.pdf">View final project report here.</a>
 
       <h2 id="features">Skills Involved</h2>
       <ul>
         <li>Matching algorithms</li>
         <li>Graph theory</li>
+        <li>Parallelization for optimization</li>
       </ul>
 
       <h2 id="technologies-used">Technologies Used</h2>
